@@ -94,7 +94,7 @@ spam(){
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 08123456789
+            echo contoh 0122652837
             read target # masukin no telp
             echo
             echo "Berapa jumlah SMS yang mau dikirim?"
@@ -127,18 +127,18 @@ spam(){
             #function spam
             echo
             echo "Silahkan masukan nomor telp target"
-            echo contoh 08123456789
+            echo contoh 0122642837
             read target # masukin no telp
             echo
             echo "Gunakan API Grab/Tokped?"
             echo "[1] GRAB"
-            echo "[2] TOKPED"
+            echo "[2] MAXIS"
             echo "1/2?"
             read api
             if [ $api = "1" ]; then
                   api_spam="grab"
             else
-                  api_spam="toped"
+                  api_spam="maxis"
             fi
             echo Apakah nomor $target dan spam menggunakan $api_spam "sudah benar?"
             echo y/n?
